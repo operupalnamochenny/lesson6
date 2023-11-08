@@ -1,0 +1,76 @@
+.task1{
+    width: 500px;
+
+}
+
+.task1__article{
+    text-align: justify;
+}
+
+.task1__article span:first-child {
+color: red;
+}
+
+.task1__article span:last-child {
+    color: rgb(4, 250, 4);
+}
+
+.task2{
+    margin-top: 50px;
+    display: flex;
+}
+
+.task2__list li:first-child{
+    color: red;
+}
+
+.task2__list li:last-child{
+    color: rgb(4, 250, 4);
+}
+
+.task3{
+    margin-top: 50px;
+    display: flex;
+}
+
+.task3__list li:nth-child(even){
+    color: red;
+}
+
+.task3__list li:nth-child(odd){
+    color: rgb(4, 250, 4);
+}
+
+.task4{
+    width: 500px;
+}
+
+.task4 p:not(.text){
+    color: red;
+}
+
+.task5{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.task5 .task5__element:first-child:active{
+    color: blue;
+    text-decoration: none;
+}
+
+.task5 .task5__element:nth-child(2):active{
+    color: green;
+    text-decoration: none;
+}
+
+.task5 .task5__element:last-child:active{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
